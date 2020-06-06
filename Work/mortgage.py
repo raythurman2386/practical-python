@@ -1,8 +1,8 @@
 # mortgage.py
 #
 # Exercise 1.7
-principle = 500000.0
-rate = 0.05
+principle = float(input("How much principle do you have: "))
+rate = float(input("What is your interest rate: ")) / 100
 payment = 2684.11
 total_paid = 0.0
 months = 0
